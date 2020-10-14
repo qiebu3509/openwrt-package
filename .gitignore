@@ -1,18 +1,13 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+[submodule "lua-maxminddb"]
+	path = lua-maxminddb
+	url = https://github.com/jerrykuku/lua-maxminddb.git
+[submodule "luci-theme-argon"]
+	path = luci-theme-argon-18.06
+	url = https://github.com/jerrykuku/luci-theme-argon.git
+	branch = 18.06
+[submodule "luci-app-jd-dailybonus"]
+	path = luci-app-jd-dailybonus
+	url = https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+[submodule "luci-app-argon-config"]
+	path = luci-app-argon-config
+	url = https://github.com/jerrykuku/luci-app-argon-config.git
